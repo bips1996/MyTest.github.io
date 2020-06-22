@@ -407,11 +407,34 @@ section {
 #skill {
   width: 100%;
   height: 100vh;
+  z-index: -10;
+  background: url(../img/projectbg1.jpg) no-repeat top right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   /*background: rgba(255, 13, 24, 1.0);*/
   /* position: absolute; */
-  background: url("../img/skillbg.jpg") top right;
   background-size: 200vh;
 }
+/*
+#skill:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(photos/2452.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+
 .skills .progress {
   height: 100px;
   display: block;
@@ -446,6 +469,10 @@ section {
   background-color: #149ddd;
   color: "#ffffff";
 }
+
+
+
+
 
 @media (min-width: 1024px) {
   #skill {
@@ -638,23 +665,12 @@ section {
   opacity: 1;
   bottom: 0;
 }
-.portfolio-wrap:hover
-{
-  width: 50%;
-  height: 50%;
-}
-.portfolio-links{
-
-  transition: all ease-in-out 0.3s;
-}
 
 .portfolio-wrap span
 {
  display:none;
  position:absolute;
- line-height: 100%;
  vertical-align:middle;
-
 }
 .portfolio-wrap:hover span
 {
@@ -684,6 +700,7 @@ section {
 @media (min-width: 1024px) {
   #portfolio {
     background-attachment: fixed;
+    attachment: fixed;
   }
 }
 
