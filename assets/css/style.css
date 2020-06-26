@@ -547,7 +547,10 @@ section {
 #portfolio {
   /*background: rgba(255, 13, 24, 1.0);*/
   /* position: absolute; */
-  background: url("../img/projectbg1.jpg") top right;
+  
+  background: url("../img/port.jpg") top right;
+  
+
   background-size: 200vh;
 }
 .portfolio .portfolio-item {
