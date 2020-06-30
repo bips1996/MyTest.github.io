@@ -304,7 +304,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #fff;
 }
 
 .section-title h2::after {
@@ -505,12 +505,17 @@ section {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #050d18;
+  border: 2px solid #000;
+  border-radius: 6px;
+  background: #e4edf9;
   margin-bottom: 10px;
+  padding: 5px 15px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background:  #262626 ;
+
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -518,6 +523,7 @@ section {
 }
 
 .resume .resume-item ul {
+
   padding-left: 20px;
 }
 
@@ -547,9 +553,9 @@ section {
 #portfolio {
   /*background: rgba(255, 13, 24, 1.0);*/
   /* position: absolute; */
-  
+
   background: url("../img/port.jpg") top right;
-  
+
 
   background-size: 200vh;
 }
