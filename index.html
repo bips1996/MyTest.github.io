@@ -36,7 +36,18 @@
   ======================================================== -->
 </head>
 
-<body>
+<body onload="myFunction()">
+  <!-- Loader -->
+  <div id="loading" style="width:100%;height:100%;background:#003B4B no-repeat center center; " >
+    <div  class="sk-chase" style="position: absolute;  left: 47%;  top: 45%;" >
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+        </div>
+  </div>
 
   <!-- ======= Mobile nav toggle button ======= -->
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -61,11 +72,13 @@
 
       <nav class="nav-menu" >
         <ul>
-          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <!-- <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li> -->
           <!-- <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li> -->
-          <li><a href="#skill"><i class="bx bx-file-blank"></i> <span>Skills</span></a></li>
+          <!-- <li><a href="#skill"><i class="bx bx-file-blank"></i> <span>Skills</span></a></li> -->
           <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio"><i class="bx bx-book-content"></i> Projects</a></li>
+          <li><a href="./bipsblog.html"><i class="bx bx-image"></i> <span>My Blogs</span></a></li>
+          <!-- <li><a href="#gallery"><i class="bx bx-image"></i> <span>My Blogs</span></a></li> -->
           <!-- <li><a href="#gallery"><i class="bx bx-server"></i>Galleries</a></li> -->
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
 
@@ -82,8 +95,8 @@
       <h1 id= fontHome  >Biplaba </h1><br/>
       <h1 id= fontHome >Samantaray </h1><br/>
       <p style="color:yellow;font-size:15px;" >I'm <span class="typed" data-typed-items="Application Developer, Green Panther, Competitive Coder"></span></p>
-      <a href="#about"><button class="button" style="vertical-align:middle"><span>explore.. </span></button></a>
-      <button class="button" style="vertical-align:middle"><span>Blog... </span></button>
+      <a href="#about"><button class="button" style="vertical-align:middle"><span>Explore.. </span></button></a>
+      <a href="./bipsblog.html"><button class="button" style="vertical-align:middle"><span>Blogs... </span></button></a>
     </div>
 
   </section><!-- End Home -->
@@ -171,76 +184,7 @@
     </section>
      End Facts Section -->
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skill" class="skills section-bg ">
 
-      <div class="container" border-radius = "20px">
-
-        <div class="section-title">
-          <h2 style= "color :#ffffff" >Technical Skills</h2>
-          <!-- <p style= "color :#ffffff"></p> -->
-        </div>
-
-        <div class="row skills-content" style="color : #ffffff">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress" data-aos="fade-up" data-aos-delay="200">
-              <span class="skill">C <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right"  style="width: 75%"></div>
-              </div>
-            </div>
-            <div class="progress"  data-aos="fade-up" data-aos-delay="200">
-              <span class="skill" >C++ <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right"  style="width: 75%"></div>
-              </div>
-            </div>
-            <div class="progress"  data-aos="fade-up" data-aos-delay="200">
-              <span class="skill" >Java(core) <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right" style="width: 75%"></div>
-              </div>
-            </div>
-
-            <div class="progress" data-aos="fade-up" data-aos-delay="200">
-              <span class="skill">Python <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right" style="width: 75%"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6" >
-
-            <div class="progress" data-aos="fade-up" data-aos-delay="200">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right"></div>
-              </div>
-            </div>
-            <div class="progress" data-aos="fade-up" data-aos-delay="200">
-              <span class="skill">React Native <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress" data-aos="fade-up" data-aos-delay="200">
-              <span class="skill">MySql <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume" style="  border-bottom: 10px solid #184B60; background-color:#003B4B">
@@ -376,7 +320,7 @@
 
           <div class="col-lg-5 col-md-6 portfolio-item portfolio-wrap filter-algo " style="background-color:rgba( 0, 92, 152,0.5);height: 250px ;border-radius: 10px;border: 2px solid  #cacaca;justify-content: center;">
               <h2 style="color:white">K_Mean</h2>
-              <p  style="color:white ; font-size : 90%" >[ This project is a guided project for image compression using K-Mean clustering ,I made this to understand the  Python datascience tools like matplotlib sklearn]<br><br><strong>Team size</strong> : Single handed <br><strong>Technology used :</strong>[ Jupyter+matplotlib+sklearn ]  <br></p>
+              <p  style="color:white ; font-size : 90%" >[ This project is a guided project for image compression using K-Mean clustering ,I made this to understand the  Python datascience tools like matplotlib sklearn]<br><strong>Team size</strong> : Single handed <br><strong>Technology used :</strong>[ Jupyter+matplotlib+sklearn ]  <br></p>
                     <span >
                       <div class="portfolio-links" style="text-align: center; position:relative;margin-left: -12px ;font-size: 10px;height:100%;width:100%;">
                             <a  href="https://github.com/bips1996/Project-CheckersGame-Minimax" title="More Details" style="background:rgba( 5, 28, 50,1.0);"><i class="bx bx-link" style="">Source Code</i></a>
@@ -491,6 +435,80 @@
 
       </div>-->
     </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skill" class="skills section-bg ">
+
+      <div class="container" border-radius = "20px">
+
+        <div class="section-title">
+          <h2 style= "color :#ffffff" >Technical Skills</h2>
+          <!-- <p style= "color :#ffffff"></p> -->
+        </div>
+
+        <div class="row skills-content" style="color : #ffffff">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress" data-aos="fade-up" data-aos-delay="200">
+              <span class="skill">C <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right"  style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="progress"  data-aos="fade-up" data-aos-delay="200">
+              <span class="skill" >C++ <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right"  style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="progress"  data-aos="fade-up" data-aos-delay="200">
+              <span class="skill" >Java(core) <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div class="progress" data-aos="fade-up" data-aos-delay="200">
+              <span class="skill">Python <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right" style="width: 75%"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" >
+
+            <div class="progress" data-aos="fade-up" data-aos-delay="200">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" data-aos="fade-right"></div>
+              </div>
+            </div>
+            <div class="progress" data-aos="fade-up" data-aos-delay="200">
+              <span class="skill">React Native <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress" data-aos="fade-up" data-aos-delay="200">
+              <span class="skill">MySql <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services" style="  border-bottom: 10px solid #184B60;">
@@ -720,6 +738,19 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
 
 </body>
 
