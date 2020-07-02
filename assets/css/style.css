@@ -625,7 +625,8 @@ section {
   background-size: 200vh;
 }
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+
 }
 
 .portfolio #portfolio-flters {

@@ -120,7 +120,7 @@
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item',
-      layoutMode: 'fitRows'
+      // layoutMode: 'fitRows'
     });
 
     $('#portfolio-flters li').on('click', function() {
