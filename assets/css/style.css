@@ -468,20 +468,16 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-
 #skill {
-  width: 100%;
-  height: 100vh;
-  z-index: -10;
-  background: url(../img/projectbg1.jpg) no-repeat top right;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  /*background: rgba(255, 13, 24, 1.0);*/
-  /* position: absolute; */
+
+
+  background: url("../img/projectbg1.jpg") top right;
+
+
   background-size: 200vh;
 }
+
+
 /*
 #skill:before {
   content: "";
@@ -734,6 +730,7 @@ section {
   opacity: 1;
   bottom: 0;
 }
+
 
 @media (min-width: 1024px) {
   #portfolio {
