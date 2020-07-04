@@ -2,7 +2,7 @@
 #bh {
   width: 100%;
   height: 100vh;
-  background: rgba(255, 13, 24, 0.3);
+  
   background: url("../img/blogbg.jpg") top right;
   background-size: 200vh;
 }
