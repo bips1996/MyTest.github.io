@@ -1,3 +1,98 @@
+/* Blog Home*/
+#bh {
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 13, 24, 0.3);
+  background: url("../img/blogbg.jpg") top right;
+  background-size: 200vh;
+}
+#fontHome{
+  font-family: "Palatino", Times, serif ;
+}
+#fontHome2{
+  font-family: "Verdana", Times, serif ;
+  font-size: 15px;
+}
+
+
+#bh:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#bh .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+#bh h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#bh p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#bh p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+
+@media (min-width: 1024px) {
+  #bh {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #bh h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #bh h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*loader*/
 #blogloading{
 	position: fixed;
