@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+  <title>Biplaba</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/profile-img.png" rel="icon">
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/blog.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v1.2.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+   <!-- <a href="./index.html"><button class="button" style="vertical-align:middle"><span>Back... </span></button></a> -->
+</head>
+
+<body onload="blogFunction()">
+  <!-- Loader -->
+  <div id="blogloading" style="width:100%;height:100%;background:#003B4B no-repeat center center; " >
+    <div  class="sk-chase" style="position: absolute;  left: 47%;  top: 45%;" >
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+        </div>
+  </div>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+
+
+
+  <!-- ======= HomeSection ======= -->
+    <!-- ======= About Us Section ======= -->
+    <section  style="background: black ; color: white">
+      <div class="container">
+        <div style="text-align:center;">
+          <h1><strong style="color:#e60073 ">Graph</strong><strong >QL</strong></h1>
+          <h6><strong style="color: #e60073">Schema</strong> &nbsp &diams; Resolver &nbsp &diams; &nbsp <strong style="color: #e60073">Query</strong> &nbsp &diams; &nbsp Mutation<br>Date : xx.xx.xxxx<br></h6>
+        </div>
+<!--         <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3 class="container">Contents:</h3>
+            <ul>
+              <li>What/Why is GraphQL?</li>
+              <li>GraphQL vs REST</li>
+              <li>Getting Started</li>
+              <li>GraphQL at Backend</li>
+              <li>GraphQL at Frontend</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3>Voluptatem dignissimos <strong>provident quasi corporis voluptates</strong></h3>
+            <p class="font-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+            </p>
+          </div>
+        </div> -->
+        <div><h3><strong>INTRODUCTION</strong></h3></div>
+        <div class="container" >
+          <p>
+            Looking for an api for application development? I always found dev-teams always get confused while choosing a technology  stack for an application whether it is a web or native one. In this era of tech-innovation we are quite confused between what is best and what is required. It is still a major concern to select a api for the application development,so let us briefly explore the possibilities of using the functionalities of graphql in your application.
+          </p>
+          <div class="container"></div>
+          <h4>Why GraphQL</h4>
+          <p>I am quite sure why is a better question than what.As REST and SOAP is already trending in market so why companies like <strong>github,twitter,facebook,spotify</strong> chosing this api as per requirements is a nice question to explore.So some of the good reasons are asper follows :- </p>
+          <p>
+            <ul>
+              <li>
+                A single endpoint with a "POST" request is enough.GraphQL doesn't look for different operations like create,insert,delete etc. ,all such things can be done with a single post request following some arichitecure that is defined by graphql community different for different environments.
+              </li>
+              <li>
+                With a single query you can search for multiple databases.
+              </li>
+              <li>
+                It has a lot of adventage on reducing network payload as on fetching you will only get required data which varies from REST where you will always get a full document instead of few attributes of it.
+              </li>
+            </ul>
+          </p>
+        </div>
+
+        <p>So lets explore GraphQL by understanding its architecture and workflow.We will discuss it considering a mongoose Schema with express.js</p>
+        <h2>Prerequisites</h2>
+        <p>You should have node environment[install node.js + express either from commandline or terminal] and some basic knowledge on MongoDB and Javascript.Run the following commands for the final environment setup.</p>
+        <ul>
+          <li>npm install express express-graphql graphql</li>
+        </ul>
+      </div>
+      <div class="container">
+        <h2>Building apis at backend</h2>
+        <div class="container">
+          <p>Let us go through the following steps to understand graphql as well as the architecture</p>
+          <h4><u><strong style="color: yellow">STEP - I </strong></u> [The express graphql structure]</h4>
+          <div class="container">
+            <p>
+                  <br>const express = require('express');
+                  <br>const bodyParser = require('body-parser');
+                  <br>const graphqlHttp = require('express-graphql').graphqlHTTP;
+                  <br>const { buildSchema } = require('graphql');
+                  <br>const mongoose = require('mongoose');
+                  <br>const app = express();
+                  <br>app.use(bodyParser.json());
+                  <br>
+                  <br>const graphQlSchema = require('./apis/schema/schemas');
+                  <br>const graphQlResolvers = require('./apis/resolver/resolvers');
+                  <br>
+                  <br>
+                  app.use(
+                      <br>&nbsp '/graphql',
+                      <br>&nbsp graphqlHttp({
+                        <br>&nbsp &nbsp schema: graphQlSchema,
+                        <br>&nbsp &nbsp rootValue: graphQlResolvers,
+                        <br>&nbsp &nbsp graphiql: true
+                      <br>})
+                    <br>)
+                    
+
+
+                    <br>mongoose.connect("put the connection string of database here",{useNewUrlParser: true,useUnifiedTopology: true,})
+                     <br> .then(() => {
+                          app.listen(3000);
+                        })
+                     <br>   .catch(err => {
+                          console.log(err);
+                     <br>   });
+
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Us Section -->
+  <script>
+    // $(document).ready(function(){
+      // 	$('div#loading').removeAttr('id');
+    // });
+    var preloader = document.getElementById("blogloading");
+    // window.addEventListener('load', function(){
+    // 	preloader.style.display = 'none';
+    // 	})
+    function blogFunction(){
+      preloader.style.display = 'none';
+    };
+  </script>
+
+</body>
+
+</html>
