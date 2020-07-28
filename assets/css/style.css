@@ -740,7 +740,8 @@ section {
 }
 
 .portfolio-wrap{
-  border: 2px solid #cacaca;height:200
+  border: 2px solid #cacaca;height:200 ;
+  background: #003B4B
 }
 .portfolio-item-title
 {
