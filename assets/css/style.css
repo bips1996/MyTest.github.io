@@ -1,8 +1,5 @@
 /**
-* Template Name: iPortfolio - v1.2.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+
 */
 
 /*--------------------------------------------------------------
@@ -278,8 +275,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background: rgba(255, 13, 24, 0.3);
-  background: url("../img/bg3.jpg") top right;
+  background: url("../img/bg3.jpg") no-repeat;
   background-size: 200vh;
+  background-position: ;
+  background-size: cover;
+  transition: all .5s;
+  background-attachment: fixed;
+  overflow: auto;
 }
 #fontHome{
   font-family: "Palatino", Times, serif ;
@@ -471,7 +473,13 @@ section {
 #skill {
 
 
-  background: url("../img/projectbg1.jpg") top right;
+  background: url("../img/projectbg1.jpg") no-repeat;
+  background-size: 200vh;
+  background-position: ;
+  background-size: cover;
+  transition: all .5s;
+  background-attachment: fixed;
+  overflow: auto;
 
 
   background-size: 200vh;
@@ -615,7 +623,13 @@ section {
   /*background: rgba(255, 13, 24, 1.0);*/
   /* position: absolute; */
 
-  background: url("../img/port.jpg") top right;
+  background: url("../img/port.jpg") no-repeat;
+  background-size: 200vh;
+  background-position: ;
+  background-size: cover;
+  transition: all .5s;
+  background-attachment: fixed;
+  overflow: auto;
 
 
   background-size: 200vh;
